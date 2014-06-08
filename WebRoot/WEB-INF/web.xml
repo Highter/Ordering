@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomLoginServlet</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomRegisterServet</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomRegisterServet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestaurantResgiterServlet</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestaurantResgiterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminGetAllRestaurantMessage</servlet-name>
+    <servlet-class>servlet.AdminServlet.AdminGetAllRestaurantMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminGetAllCustom</servlet-name>
+    <servlet-class>servlet.AdminServlet.AdminGetAllCustom</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminGetAllRest</servlet-name>
+    <servlet-class>servlet.AdminServlet.AdminGetAllRest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminChangeRole</servlet-name>
+    <servlet-class>servlet.AdminServlet.AdminChangeRole</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomShowAllMessage</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomShowAllMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomUpdate</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestautantUpdate</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestautantUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MenuManageServlet</servlet-name>
+    <servlet-class>servlet.CustomServlet.MenuManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MsgManageServlet</servlet-name>
+    <servlet-class>servlet.CustomServlet.MsgManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestCustomAddMenu</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestCustomAddMenu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestaurantShowMenu</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestaurantShowMenu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Test</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.Test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateMenu</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.UpdateMenu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestDeleteMenu</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestDeleteMenu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestCustomGetAllOrder</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestCustomGetAllOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteOrder</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.DeleteOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestShowMessage</servlet-name>
+    <servlet-class>servlet.RestCustomServlet.RestShowMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteMessage</servlet-name>
+    <servlet-class>servlet.CustomServlet.DeleteMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomShowMenu</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomShowMenu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomAddToShoppingCar</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomAddToShoppingCar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomCommit</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomCommit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomShowRestMessage</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomShowRestMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MenuListServlet</servlet-name>
+    <servlet-class>servlet.CustomServlet.MenuListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowHotMenuDish</servlet-name>
+    <servlet-class>servlet.CustomServlet.ShowHotMenuDish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowHotRestaurants</servlet-name>
+    <servlet-class>servlet.CustomServlet.ShowHotRestaurants</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomSearch</servlet-name>
+    <servlet-class>servlet.CustomServlet.CustomSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DestorySession</servlet-name>
+    <servlet-class>servlet.CustomServlet.DestorySession</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CustomAddMessage</servlet-name>
+  	<servlet-class>servlet.CustomServlet.CustomAddMessage</servlet-class>
+  </servlet>
+  <listener>
+    <listener-class>listener.ShopCarListener</listener-class>
+  </listener>
+  <jsp-config>
+    <jsp-property-group>
+      <description>    
+            Special property group for JSP Configuration HTML     
+            example.     
+        </description>
+      <display-name>JSPConfiguration</display-name>
+      <url-pattern>*.html</url-pattern>
+      <el-ignored>true</el-ignored>
+      <page-encoding>UTF-8</page-encoding>
+      <scripting-invalid>false</scripting-invalid>
+      <include-prelude></include-prelude>
+      <include-coda></include-coda>
+    </jsp-property-group>
+  </jsp-config>
+  <filter>
+    <filter-name>CharFilter</filter-name>
+    <filter-class>filter.CharFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomLoginServlet</servlet-name>
+    <url-pattern>/CustomLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomRegisterServet</servlet-name>
+    <url-pattern>/CustomRegisterServet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestaurantResgiterServlet</servlet-name>
+    <url-pattern>/RestaurantResgiterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminGetAllRestaurantMessage</servlet-name>
+    <url-pattern>/AdminGetAllRestaurantMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminGetAllCustom</servlet-name>
+    <url-pattern>/AdminGetAllCustom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminGetAllRest</servlet-name>
+    <url-pattern>/AdminGetAllRest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminChangeRole</servlet-name>
+    <url-pattern>/AdminChangeRole</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomShowAllMessage</servlet-name>
+    <url-pattern>/CustomShowAllMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomUpdate</servlet-name>
+    <url-pattern>/CustomUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestautantUpdate</servlet-name>
+    <url-pattern>/RestautantUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuManageServlet</servlet-name>
+    <url-pattern>/MenuManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgManageServlet</servlet-name>
+    <url-pattern>/MsgManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestCustomAddMenu</servlet-name>
+    <url-pattern>/RestCustomAddMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestaurantShowMenu</servlet-name>
+    <url-pattern>/RestaurantShowMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Test</servlet-name>
+    <url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateMenu</servlet-name>
+    <url-pattern>/UpdateMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestDeleteMenu</servlet-name>
+    <url-pattern>/RestDeleteMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestCustomGetAllOrder</servlet-name>
+    <url-pattern>/RestCustomGetAllOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrder</servlet-name>
+    <url-pattern>/DeleteOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestShowMessage</servlet-name>
+    <url-pattern>/RestShowMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessage</servlet-name>
+    <url-pattern>/DeleteMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomShowMenu</servlet-name>
+    <url-pattern>/CustomShowMenu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomAddToShoppingCar</servlet-name>
+    <url-pattern>/CustomAddToShoppingCar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomCommit</servlet-name>
+    <url-pattern>/CustomCommit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomShowRestMessage</servlet-name>
+    <url-pattern>/CustomShowRestMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenuListServlet</servlet-name>
+    <url-pattern>/MenuListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowHotMenuDish</servlet-name>
+    <url-pattern>/ShowHotMenuDish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowHotRestaurants</servlet-name>
+    <url-pattern>/ShowHotRestaurants</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomSearch</servlet-name>
+    <url-pattern>/CustomSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DestorySession</servlet-name>
+    <url-pattern>/DestorySession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomAddMessage</servlet-name>
+  	<url-pattern>/CustomAddMessage</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

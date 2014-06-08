@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow: hidden;
+}
+#Head {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 10%;
+	width: 100%;
+	color: blue;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+}
+
+.Head_Welcome {
+	padding-top: 1.5%;
+}
+
+#Layout_Right {
+	position: absolute;
+	top: 10%;
+	left: 0px;
+	height: 90%;
+	width: 150px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: gray;
+}
+#customMsgMng_menu{
+	position: relative;
+	left: 20%;
+	list-style: none;
+	display: none;
+}
+#Layout_Right li{
+	color: black;
+}
+#Layout_Right li a{
+	text-decoration: none;
+	color: black;
+}
+#Layout_Left {
+	position: absolute;
+	top: 10%;
+	left: 150px;
+	height: 90%;
+}
+#Layout_Left_Msg_CustomMsgMng{
+	display: none;
+}
+#Layout_Left_Msg_MenuMng{
+	display: none;
+}
+#Layout_Left_Msg_RestMsg{
+	display: none;
+}
+#CustomMsgMng_show{
+	display: none;
+}
+#CustomMsgMng_update{
+	display: none;
+}

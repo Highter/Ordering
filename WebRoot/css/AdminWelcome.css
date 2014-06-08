@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	overflow: hidden;
+}
+#Head {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 10%;
+	width: 100%;
+	color: blue;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+}
+
+.Head_Welcome {
+	padding-top: 1.5%;
+}
+
+#Layout_Right {
+	position: absolute;
+	top: 10%;
+	left: 0px;
+	height: 90%;
+	width: 150px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: gray;
+}
+#Layout_Right li{
+	color: black;
+}
+#Layout_Right li a{
+	text-decoration: none;
+	color: black;
+}
+#Layout_Left {
+	position: absolute;
+	top: 10%;
+	left: 150px;
+	height: 90%;
+}
+#custom_menu{
+	position: relative;
+	left: 20%;
+	list-style: none;
+	display: none;
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
+#custom_menu li{
+	margin-top: 50px;
+	margin-bottom: -30px;
+}
+#Layout_Left_Msg_CustomRegister{
+	display: none;
+}
+#Layout_Left_Msg_RestaurantShow{
+	display: none;
+}
+#Layout_Left_Msg_OrderingCustomShow{
+	display: none;
+}
+#Layout_Left_Msg_RestaurantCustomShow{
+	display: none;
+}
+.Layout_Right_Menu{
+	padding-top: 5%;
+	list-style-type: none;
+	padding-left: 18px;
+}
+.Layout_Right_Menu li{
+	margin-top: 50px;
+}

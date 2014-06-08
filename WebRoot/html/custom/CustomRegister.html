@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>register.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<script type="text/javascript" src="../../js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="../../js/register.js" charset="utf-8"></script>
+
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	overflow: hidden;
+}
+
+#login_form {
+	position: absolute;
+	text-align: center;
+	left: 35%;
+	top: 5%;
+}
+
+#login_table tr td{
+	border-bottom-color: teal;
+	text-align: center;
+	padding: 5px;
+	height: 40px;
+}
+</style>
+</head>
+
+<body>
+	<div id="bg">
+		<img alt="" src="../../pic/bg.jpg" width="100%" height="100%">
+	</div>
+	<div id="login_form">
+		<form action="/Ordering/CustomRegisterServet" method="post">
+			<table border="1" id="login_table">
+				<caption>欢迎来到LYZ订餐注册页面</caption>
+				<tr>
+					<td>用户名：</td>
+					<td><input type="text" name="login_name" id="login_name" />
+					</td>
+					<td id="msg7"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="custom_password"
+						id="custom_password" />
+					</td>
+					<td id="msg8"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>确认密码：</td>
+					<td><input type="password" name="check_custom_password"
+						id="check_custom_password"  />
+					</td>
+					<td id="msg1"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>真实姓名：</td>
+					<td><input type="text" name="custom_Name" id="custom_Name" />
+					</td>
+					<td id="msg6"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>性别:</td>
+					<td><input type="radio" name="custom_sex" id="custom_sex"
+						value="1" />男 <input type="radio" name="custom_sex"
+						id="custom_sex" value="0" />女</td>
+						<td id="msg9"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>年龄：</td>
+					<td><input type="text" name="custom_Age" id="custom_Age" />
+					</td>
+					<td id="msg10"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>身份证号码：</td>
+					<td><input type="text" name="custom_ID" id="custom_ID" />
+					</td>
+					<td id="msg4"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>送货地址：</td>
+					<td><input type="text" name="custom_Address"
+						id="custom_Address" />
+					</td>
+					<td id="msg11"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>联系电话：</td>
+					<td><input type="text" name="custom_Phone" id="custom_Phone" />
+					</td>
+					<td id="msg3"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>电子邮件：</td>
+					<td><input type="text" name="custom_Email" id="custom_Email" />
+					</td>
+					<td id="msg2"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td>QQ：</td>
+					<td><input type="text" name="custom_QQ" id="custom_QQ" />
+					</td>
+					<td id="msg5"><font color='red'>*</font></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="提交" id="submit" name="submit" />
+						<input type="reset" value="重置" id="reset" name="reset" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

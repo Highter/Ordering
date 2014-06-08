@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>RestaurantRegister.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+</head>
+
+<body>
+
+	<div id="register_form">
+		<form action="/Ordering/RestaurantResgiterServlet" METHOD="POST" ENCTYPE="multipart/form-data">
+			<table border="1">
+				<caption>欢迎来到餐馆注册页面</caption>
+				<tr>
+					<td>主营菜系：</td>
+					<td>
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="1"/>1菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="2"/>2菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="3"/>3菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="4"/>4菜系
+					
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="5"/>5菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="6"/>6菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="7"/>7菜系
+					<input type="checkbox" name="Dish_Style_ID" id="Dish_Style_ID" value="8"/>8菜系
+					</td>
+				</tr>
+				<tr>
+					<td>餐馆名字 ：</td>
+					<td><input type="text" name="Rest_Name"
+						id="Rest_Name" /></td>
+				</tr>
+				<tr>
+					<td>餐馆老板ID：</td>
+					<td><input type="text" name="Rest_CEO_ID" id="Rest_CEO_ID" />
+					</td>
+				</tr>
+				<tr>
+					<td>订餐电话：</td>
+					<td><input type="text" name="Rest_phone" id="Rest_phone" />
+					</td>
+				</tr>
+				<tr>
+					<td>餐馆地址：</td>
+					<td><input type="text" name="Rest_Address" id="Rest_Address" />
+					</td>
+				</tr>
+				<tr>
+					<td>餐馆图片：</td>
+					<td><input type="file" name="Rest_Photo" id="Rest_Photo" />
+					</td>
+				</tr>
+				<tr>
+					<td>餐馆的介绍：</td>
+					<td><textarea name="Remark" id="Remark" ></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="submit" id="submit"
+						name="submit" /> <input type="reset" value="reset" id="reset"
+						name="reset" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
