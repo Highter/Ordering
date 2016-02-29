@@ -9,6 +9,4 @@ public interface IShopCar {
 	public  long addShopCar(ShoppingCarDateBase shopcar);
 	public List<ShoppingCar> getShopCars(int custom_id);
 	public boolean deleteShopCar(int custom_id);
-	
-
 }
